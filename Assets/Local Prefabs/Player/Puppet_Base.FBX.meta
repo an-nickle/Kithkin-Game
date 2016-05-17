@@ -1,0 +1,1213 @@
+fileFormatVersion: 2
+guid: 293abe0ad3bdf7e45bfbb079f6420c28
+timeCreated: 1463504367
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CH_Blank_Slate
+    100002: Hair_SLot
+    100004: Line004
+    100006: Line005
+    100008: Marine
+    100010: MarineHead
+    100012: MarineLCalf
+    100014: MarineLCollarbone
+    100016: MarineLForearm
+    100018: MarineLPlatform
+    100020: MarineLThigh
+    100022: MarineLUpperarm
+    100024: MarineNeck1
+    100026: MarineNeck2
+    100028: MarinePelvis
+    100030: MarineRCalf
+    100032: MarineRCollarbone
+    100034: MarineRForearm
+    100036: MarineRibcage
+    100038: MarineRPlatform
+    100040: MarineRThigh
+    100042: MarineRUpperarm
+    100044: MarineSpine1
+    100046: MarineSpine2
+    100048: MarineSpine3
+    100050: Mask_Slot
+    100052: //RootNode
+    400000: CH_Blank_Slate
+    400002: Hair_SLot
+    400004: Line004
+    400006: Line005
+    400008: Marine
+    400010: MarineHead
+    400012: MarineLCalf
+    400014: MarineLCollarbone
+    400016: MarineLForearm
+    400018: MarineLPlatform
+    400020: MarineLThigh
+    400022: MarineLUpperarm
+    400024: MarineNeck1
+    400026: MarineNeck2
+    400028: MarinePelvis
+    400030: MarineRCalf
+    400032: MarineRCollarbone
+    400034: MarineRForearm
+    400036: MarineRibcage
+    400038: MarineRPlatform
+    400040: MarineRThigh
+    400042: MarineRUpperarm
+    400044: MarineSpine1
+    400046: MarineSpine2
+    400048: MarineSpine3
+    400050: Mask_Slot
+    400052: //RootNode
+    2300000: Line004
+    2300002: Line005
+    3300000: Line004
+    3300002: Line005
+    4300000: CH_Blank_Slate
+    4300002: Line005
+    4300004: Line004
+    7400000: Idle_Breathing
+    7400002: Idle_Look_Around
+    7400004: Idle_Yawn
+    7400006: Movement_Walk_Startup
+    7400008: Movement_Walk_Cycle
+    7400010: Movement_Walk_End
+    7400012: Attack_Regular
+    7400014: Attack_Active_A
+    7400016: Emote_Wave
+    7400018: Emote_Shrug
+    7400020: Emote_Cry
+    7400022: Emote_Yes
+    7400024: Emote_No
+    9500000: //RootNode
+    13700000: CH_Blank_Slate
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Breathing
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Look_Around
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Yawn
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Movement_Walk_Startup
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 256
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Movement_Walk_Cycle
+      takeName: Take 001
+      firstFrame: 256
+      lastFrame: 281
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Movement_Walk_End
+      takeName: Take 001
+      firstFrame: 281
+      lastFrame: 288
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_Regular
+      takeName: Take 001
+      firstFrame: 405
+      lastFrame: 435
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_Active_A
+      takeName: Take 001
+      firstFrame: 455
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote_Wave
+      takeName: Take 001
+      firstFrame: 605
+      lastFrame: 645
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote_Shrug
+      takeName: Take 001
+      firstFrame: 660
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote_Cry
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 790
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote_Yes
+      takeName: Take 001
+      firstFrame: 800
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote_No
+      takeName: Take 001
+      firstFrame: 830
+      lastFrame: 860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CH_Blank_Slate
+        weight: 1
+      - path: Marine
+        weight: 1
+      - path: MarineLPlatform
+        weight: 1
+      - path: MarinePelvis
+        weight: 1
+      - path: MarinePelvis/MarineLThigh
+        weight: 1
+      - path: MarinePelvis/MarineLThigh/MarineLCalf
+        weight: 1
+      - path: MarinePelvis/MarineRThigh
+        weight: 1
+      - path: MarinePelvis/MarineRThigh/MarineRCalf
+        weight: 1
+      - path: MarinePelvis/MarineSpine1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line004
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/Line005
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineLCollarbone/MarineLUpperarm/MarineLForearm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Hair_SLot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineNeck1/MarineNeck2/MarineHead/Mask_Slot
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm
+        weight: 1
+      - path: MarinePelvis/MarineSpine1/MarineSpine2/MarineSpine3/MarineRibcage/MarineRCollarbone/MarineRUpperarm/MarineRForearm
+        weight: 1
+      - path: MarineRPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

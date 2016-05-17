@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F6BDFB8E-D843-73DB-9808-634F4308407C}</ProjectGuid>
+    <ProjectGuid>{2699C92C-05D2-0AB0-D37D-70C4771C99D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -88,13 +88,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/Game Development/GameStartingPoint/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/Game Development/Kithkin Game/Kithkin-Game/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>D:/Game Development/GameStartingPoint/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>D:/Game Development/Kithkin Game/Kithkin-Game/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>D:/Game Development/GameStartingPoint/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>D:/Game Development/Kithkin Game/Kithkin-Game/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -105,9 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5C29C888-46CF-3BC4-E46D-5B5AD09B0820}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{C22B8D1A-08A8-5BED-F0C2-CA069D73EB1B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D06DCA99-D469-6808-BFF6-0A402EBCA5DB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{5E8667A8-DF87-2157-03C8-7541275CCD61}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
