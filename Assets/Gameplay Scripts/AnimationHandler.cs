@@ -28,6 +28,7 @@ public class AnimationHandler : MonoBehaviour
         else
         {
             animator.SetBool("isMoving", true);
+            timer = 0.0f;
         }
 
         HandleIdleAnimations();
