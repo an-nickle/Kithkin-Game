@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Gameplay Scripts\AnimationHandler.cs" />
      <Compile Include="Assets\Gameplay Scripts\CapsuleControl.cs" />
      <Compile Include="Assets\Gameplay Scripts\Constants.cs" />
      <Compile Include="Assets\Gameplay Scripts\PlayerMovement.cs" />
