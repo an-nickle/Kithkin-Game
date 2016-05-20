@@ -1,9 +1,11 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Networking Scripts\NetworkCharacter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Local Scripts\ChoosingNetworkGameScene\ChoosingNetworkGameScript.cs">
     <Files>
-      <File FileName="Assets\Networking Scripts\RandomMatchmaker.cs" Line="49" Column="92" />
-      <File FileName="Assets\Networking Scripts\NetworkCharacter.cs" Line="31" Column="6" />
+      <File FileName="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" Line="1157" Column="1" />
+      <File FileName="Assets\Local Scripts\TestGameScene\TestGameScript.cs" Line="20" Column="66" />
+      <File FileName="Assets\Local Scripts\TestCapsuleControl.cs" Line="22" Column="1" />
+      <File FileName="Assets\Local Scripts\ChoosingNetworkGameScene\ChoosingNetworkGameScript.cs" Line="102" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
