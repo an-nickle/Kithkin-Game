@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-	    //Testing a change in the code
+	    
 	}
 	
 	// Update is called once per frame
